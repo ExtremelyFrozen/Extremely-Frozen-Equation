@@ -1,0 +1,21 @@
+filename = 'ae2_toggleable_view_cell-1.0.1.jar'
+name = 'Neo AE2 Toogleable View Cell'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ae2_toggleable_view_cell-1.0.1.jar'
+
+[download]
+hash = 'ad7f7d625f5f7cca015c4ba89fa0c194b1fa72c5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7592802
+project-id = 1367438
+
+[[x-prismlauncher-dependencies]]
+addonId = '223794'
+type = 'REQUIRED'

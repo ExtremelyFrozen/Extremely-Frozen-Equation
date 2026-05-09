@@ -1,0 +1,18 @@
+filename = 'tiab-entity-fix-1.0.3.jar'
+name = 'Time in a Bottle Fix - Tiab fix'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Time In A Bottle Fix 1.0.3'
+
+[download]
+hash = '60d4dd0c9bcdabf029a78e94efab01726b2aacb7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8009886
+project-id = 1420679

@@ -1,0 +1,29 @@
+filename = 'PackagedDraconic-1.21.1-4.0.0.1.jar'
+name = 'PackagedDraconic'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.21.1-4.0.0.1'
+
+[download]
+hash = 'bd7caf5e6795b0166a83d283495baccde7de7975'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7155031
+project-id = 833931
+
+[[x-prismlauncher-dependencies]]
+addonId = '223565'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '308380'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223794'
+type = 'OPTIONAL'

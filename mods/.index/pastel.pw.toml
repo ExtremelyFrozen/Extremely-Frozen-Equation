@@ -1,0 +1,41 @@
+filename = 'Pastel-1.1.5.5.jar'
+name = 'Pastel'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Pastel 1.1.5.5'
+
+[download]
+hash = '53a582520b78aebd56c9be1fd041472047dca3d3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7591337
+project-id = 1264556
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '309927'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '580555'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1108052'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '538392'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1181408'
+type = 'REQUIRED'

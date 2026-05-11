@@ -1,31 +1,23 @@
-filename = 'enderio-8.2.8-beta.jar'
+filename = 'enderio-8.2.6-beta.jar'
 name = 'Ender IO'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = 'Ender IO - v9.0.3-alpha'
+x-prismlauncher-version-number = 'Ender IO - v8.2.6-beta'
 
 [download]
-hash = 'cd701b8f1254ac87e6743b0414518d32247f25ff'
+hash = 'c607655f5b7d15a98814ac5d89b853bf73f9736f'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8054979
+file-id = 7932087
 project-id = 64578
 
 [[x-prismlauncher-dependencies]]
 addonId = '238222'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '841890'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '282001'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -34,4 +26,12 @@ type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = '268560'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '841890'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '282001'
 type = 'OPTIONAL'

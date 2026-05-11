@@ -1,21 +1,21 @@
-filename = 'ae2lt-1.0.6.jar'
-name = 'AE2 Lightning Tech'
+filename = 'revelationary-neoforge-1.4.1+1.21.1.jar'
+name = 'Revelationary'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'ae2lt-1.0.6.jar'
+x-prismlauncher-version-number = 'neoforge-1.4.1+1.21.1'
 
 [download]
-hash = 'd5d69b9d13c8ad9537f45a727f6e231132c23831'
+hash = '7e54917c6bdf638719c25f4901876ad2929bfd18'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8072339
-project-id = 1527395
+file-id = 7827351
+project-id = 656526
 
 [[x-prismlauncher-dependencies]]
-addonId = '223794'
+addonId = '306612'
 type = 'REQUIRED'

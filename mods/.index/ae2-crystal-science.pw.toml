@@ -1,25 +1,25 @@
-filename = 'ae2cs-1.21.1-neoforge-1.1.8.jar'
+filename = 'ae2cs-1.21.1-neoforge-1.1.9.jar'
 name = 'AE2 Crystal Science'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'AE2 Crystal Science 1.1.8 for 1.21.1 neoforge'
+x-prismlauncher-version-number = 'AE2 Crystal Science 1.1.9 for 1.21.1 neoforge'
 
 [download]
-hash = 'f217b8c7d190d3017640414ee474240d01ecb265'
+hash = '37b63bfc0c66ee19a3f4a8c821d03caef73d3d1e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8037918
+file-id = 8068871
 project-id = 1435174
 
 [[x-prismlauncher-dependencies]]
-addonId = '328085'
+addonId = '268560'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '268560'
+addonId = '328085'
 type = 'OPTIONAL'

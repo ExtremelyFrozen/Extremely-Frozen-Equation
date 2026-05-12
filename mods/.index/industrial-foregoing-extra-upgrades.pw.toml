@@ -1,0 +1,29 @@
+filename = 'ifeu-1.21.1-3.3.007.jar'
+name = 'Industrial Foregoing: Extra Upgrades'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ifeu-1.21.1-3.3.007.jar'
+
+[download]
+hash = '4abe4ab85e87a64a9dd2d45adbf8229b8fc6b52b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7866567
+project-id = 1161049
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238086'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '266515'
+type = 'REQUIRED'

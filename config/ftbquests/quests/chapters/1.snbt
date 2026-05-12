@@ -1,0 +1,425 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: "3775659E5EBD7258"
+	id: "58378884B542806E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0F51F8604E5B3683"]
+			id: "3E532436920A3155"
+			tasks: [{
+				id: "3FC335D1E0EC920A"
+				item: { components: { "modonomicon:book_id": "theurgy:the_hermetica" }, count: 1, id: "modonomicon:modonomicon" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"051E5FB1C98BC897"
+				"3639C4885BBE0684"
+			]
+			id: "24C9F9E94C445AB1"
+			tasks: [{
+				id: "5729B88839D28FC0"
+				item: { count: 1, id: "create:cogwheel" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F51F8604E5B3683"]
+			id: "37727B5BD57228BB"
+			tasks: [{
+				count: 4L
+				id: "1F8D5192EFDA5AA8"
+				item: { count: 1, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F51F8604E5B3683"]
+			id: "4FB66C2FCBFF923B"
+			tasks: [{
+				count: 4L
+				id: "50D0A8E03774582C"
+				item: { count: 1, id: "minecraft:clay_ball" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F51F8604E5B3683"]
+			id: "20BE1487BB31902A"
+			tasks: [{
+				count: 4L
+				id: "502154E0CF919B8C"
+				item: { count: 1, id: "minecraft:iron_nugget" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1B24FEEF6F1EC762"]
+			id: "41F67368D35913B6"
+			tasks: [{
+				id: "1D4C06F601B74891"
+				item: { count: 1, id: "theurgy:sal_ammoniac_bucket" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D9B0D4158589BF6"]
+			id: "051E5FB1C98BC897"
+			tasks: [{
+				id: "65D44F12CDB43509"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"37727B5BD57228BB"
+				"41F67368D35913B6"
+				"20BE1487BB31902A"
+				"4FB66C2FCBFF923B"
+				"57FF826F32E88A85"
+			]
+			id: "0D9B0D4158589BF6"
+			tasks: [{
+				id: "4E41567BF0EB1F6D"
+				item: { count: 1, id: "theurgy:fermentation_vat" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E532436920A3155"]
+			id: "1B24FEEF6F1EC762"
+			tasks: [{
+				id: "760DA044E0044F1E"
+				item: { count: 1, id: "theurgy:sal_ammoniac_accumulator" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["39F92AEACEF6DD7E"]
+			id: "74D9CC1018BF32BF"
+			tasks: [{
+				id: "237D18E6210F7AE9"
+				item: { count: 1, id: "actuallyadditions:fermenting_barrel" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "39F92AEACEF6DD7E"
+			tasks: [{
+				id: "6146D56118FC5515"
+				item: { count: 1, id: "eidolon_repraised:pewter_inlay" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74D9CC1018BF32BF"]
+			id: "57FF826F32E88A85"
+			tasks: [{
+				id: "0A233C9BBB0D64CB"
+				item: { count: 1, id: "spectrum:topaz_shard" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0D9B0D4158589BF6"
+				"538894B81FAEEE15"
+			]
+			id: "3639C4885BBE0684"
+			tasks: [{
+				id: "601ECE61D7BC9D52"
+				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "538894B81FAEEE15"
+			tasks: [{
+				id: "624B8ED37C796F28"
+				item: { count: 1, id: "pneumaticcraft:oil_bucket" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			id: "0F51F8604E5B3683"
+			tasks: [{
+				id: "51F91F9A409B8BE3"
+				item: { count: 1, id: "minecraft:grass_block" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3639C4885BBE0684"]
+			id: "0B5F7928616944A3"
+			tasks: [{
+				id: "03AE54FB25058AA7"
+				item: { count: 1, id: "create:water_wheel" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			id: "602D1F470B469620"
+			tasks: [{
+				id: "6500F87239536328"
+				item: { count: 1, id: "malum:runewood_sapling" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["602D1F470B469620"]
+			id: "0266EDF58EDE9439"
+			tasks: [{
+				id: "7EE32D211B9CAA93"
+				item: { count: 1, id: "malum:runewood_log" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0266EDF58EDE9439"
+				"1A2C5F1B8BEF5601"
+			]
+			id: "7D236CC045F49A03"
+			tasks: [{
+				id: "1732F71A3C5388A4"
+				item: { count: 1, id: "naturesaura:wood_stand" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3EA489D48B6A28CF"]
+			id: "1A2C5F1B8BEF5601"
+			tasks: [{
+				id: "624C8FEEE71BA0FE"
+				item: { count: 1, id: "naturesaura:gold_fiber" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6091447F2ED3A750"]
+			id: "3EA489D48B6A28CF"
+			tasks: [{
+				id: "089A2E15067AB8AC"
+				item: { count: 1, id: "occultism:spirit_fire" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			id: "6091447F2ED3A750"
+			tasks: [{
+				id: "54D256D8CF86304A"
+				item: { count: 1, id: "spectrum:citrine_shard" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["24C9F9E94C445AB1"]
+			id: "12650B33F036FB73"
+			tasks: [{
+				id: "0865597686DC65BC"
+				item: { count: 1, id: "create:mechanical_mixer" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61475D6D853EBEF4"]
+			id: "479F11A5A345859C"
+			tasks: [{
+				id: "695DD7927564EDB6"
+				item: { count: 1, id: "create:empty_blaze_burner" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28EB54FCC6CEE043"]
+			id: "38B9CB90AA16AF97"
+			tasks: [{
+				id: "7FC053B7C894F5CB"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"12650B33F036FB73"
+				"38B9CB90AA16AF97"
+			]
+			id: "21A57AD72E5DA6F7"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "3A6F6B2A72B92832"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7D236CC045F49A03"
+				"471853A33FEECA14"
+			]
+			id: "3BEC63F8F6C09CF2"
+			tasks: [{
+				id: "0002547AEC1B211D"
+				item: { count: 1, id: "theurgy:crystallized_lava" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7D236CC045F49A03"]
+			id: "080CD7520E24D8B2"
+			tasks: [{
+				count: 8L
+				id: "259B74B57FBFB0F4"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7D236CC045F49A03"
+				"12650B33F036FB73"
+			]
+			id: "195B3264688B4F62"
+			tasks: [{
+				id: "0FDCA641ED379955"
+				item: { count: 1, id: "create:rose_quartz" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3BEC63F8F6C09CF2"
+				"195B3264688B4F62"
+				"080CD7520E24D8B2"
+			]
+			id: "61475D6D853EBEF4"
+			tasks: [{
+				id: "52DBC365017DC4BC"
+				item: { count: 1, id: "minecraft:netherrack" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["479F11A5A345859C"]
+			id: "28EB54FCC6CEE043"
+			tasks: [{
+				id: "1C9633322B2F9DF6"
+				item: { count: 1, id: "naturesaura:nature_altar" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["398493A0BB940C57"]
+			id: "601A798A85111325"
+			tasks: [{
+				id: "3446CBA22A15BFA3"
+				item: { count: 1, id: "theurgy:calcination_oven" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["601A798A85111325"]
+			id: "471853A33FEECA14"
+			tasks: [{
+				id: "338FAFCF907716C2"
+				item: { count: 1, id: "theurgy:alchemical_salt_strata" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3639C4885BBE0684"]
+			id: "398493A0BB940C57"
+			tasks: [{
+				id: "04587EB99DA10B18"
+				item: { count: 1, id: "create:copper_casing" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B5F7928616944A3"]
+			id: "7A8D208CA15C7592"
+			tasks: [{
+				id: "6B4F432D0E92E829"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+	]
+}

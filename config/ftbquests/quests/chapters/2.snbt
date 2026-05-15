@@ -1,0 +1,666 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2"
+	group: "3775659E5EBD7258"
+	id: "20E4A4282F927035"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3D565564BD9C7F9B"]
+			id: "017FB9BAD2735156"
+			size: 1.25d
+			tasks: [{
+				id: "0516BB04BC089D42"
+				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["017FB9BAD2735156"]
+			id: "570A884850091D2B"
+			tasks: [{
+				id: "0E5AD8B8830B3AA7"
+				item: { count: 1, id: "modern_industrialization:bronze_mixer" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1093C9887814F655"]
+			id: "265F30E5C032A144"
+			tasks: [{
+				id: "612B01BC5C849F10"
+				item: { count: 1, id: "eidolon_repraised:crucible" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"570A884850091D2B"
+				"688FEA0912FDE8B5"
+				"021D96045C11DD05"
+			]
+			id: "4DA149A9E6B4EC9B"
+			tasks: [{
+				id: "0953EEC1CC155C1A"
+				item: { count: 1, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DA149A9E6B4EC9B"]
+			id: "60732384E36E559C"
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				id: "2121AB1F83D423A4"
+				item: { count: 1, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			id: "079CA9ACDD508D81"
+			tasks: [{
+				id: "4D744BFD550CED62"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["079CA9ACDD508D81"]
+			id: "5469738EDFE42854"
+			tasks: [{
+				id: "4CC08AE413A0F8D1"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5469738EDFE42854"]
+			id: "12A76A593A601D3A"
+			tasks: [{
+				id: "39BFB0A2AB34CD96"
+				item: { count: 1, id: "create:powdered_obsidian" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"265F30E5C032A144"
+				"12A76A593A601D3A"
+				"7045B7B6867BBD27"
+				"0208AB78EAB8E2CC"
+				"259822570422C04B"
+				"1AE7EE9CDE8E81DB"
+				"34393829BCF5AFC6"
+			]
+			id: "309D457A920EC485"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "4F8F8C7CAACCB6BA"
+				item: { count: 1, id: "justdirethings:gooblock_tier1" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["309D457A920EC485"]
+			id: "57EE749C74D4E398"
+			tasks: [{
+				id: "6339448AB5121CC8"
+				item: { count: 1, id: "justdirethings:ferricore_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"14838EAB51CADBFD"
+				"3B185BC0894711F3"
+			]
+			id: "7045B7B6867BBD27"
+			tasks: [{
+				id: "760844B097D8B2D6"
+				item: { count: 1, id: "ars_nouveau:frostaya_pod" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"57EE749C74D4E398"
+				"654029C4E8B2840E"
+				"08C801EBA9097233"
+			]
+			id: "688FEA0912FDE8B5"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "55185674A0133B8B"
+				item: { count: 1, id: "immersiveengineering:hammer" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "4F0F85B9F617B5BE"
+			tasks: [{
+				id: "16DB466F953927D5"
+				item: { count: 1, id: "create:basin" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4F0F85B9F617B5BE"]
+			id: "1093C9887814F655"
+			tasks: [{
+				id: "1AF67B21F4CD985E"
+				item: { count: 1, id: "naturesaura:wood_stand" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"60732384E36E559C"
+				"4400B47B5A1B0407"
+			]
+			id: "017727F63F7BD19D"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6AF4CA4C36AE3C4C"
+				item: { count: 1, id: "immersiveengineering:ingot_steel" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			id: "1B5A9E7FC931241B"
+			tasks: [{
+				id: "705D5EA784F8BC44"
+				item: { count: 1, id: "create:spout" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"265F30E5C032A144"
+				"73A4720177598530"
+			]
+			id: "14838EAB51CADBFD"
+			tasks: [{
+				id: "556FD5914F015B28"
+				item: { count: 1, id: "eidolon_repraised:frostbind_incense" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["717D65DA241013EF"]
+			id: "3B185BC0894711F3"
+			tasks: [{
+				id: "3BA892565EBEB32F"
+				item: { count: 1, id: "minecraft:melon" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "6C1C93DBD7039043"
+			tasks: [{
+				id: "4E97A87CD1D1AB61"
+				item: { count: 1, id: "create:encased_fan" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "4B57EA0A5E16F5D1"
+			tasks: [{
+				id: "739F2ACB9C0D299E"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4B57EA0A5E16F5D1"
+				"76C8398CB858AA20"
+			]
+			id: "3E85A85194821797"
+			tasks: [{
+				id: "3D380B07A5C48D38"
+				item: { count: 1, id: "minecraft:ice" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6C1C93DBD7039043"
+				"3E85A85194821797"
+			]
+			id: "0855C34AA5F4E8C5"
+			tasks: [{
+				id: "2647D985007A7E8D"
+				item: { count: 1, id: "minecraft:packed_ice" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6C1C93DBD7039043"
+				"0855C34AA5F4E8C5"
+			]
+			id: "73A4720177598530"
+			tasks: [{
+				id: "6D56AC2C292C4061"
+				item: { count: 1, id: "minecraft:blue_ice" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "76C8398CB858AA20"
+			tasks: [{
+				id: "111714B4F4E9A197"
+				item: { count: 1, id: "minecraft:snow_block" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1B5A9E7FC931241B"]
+			id: "0208AB78EAB8E2CC"
+			tasks: [{
+				id: "338AD2F82FC5BD93"
+				item: { count: 1, id: "create:blaze_cake" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["61E0F268BFC283B8"]
+			id: "654029C4E8B2840E"
+			tasks: [{
+				id: "59DED1FBC82DD367"
+				item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1704760688630279"
+				"362A7802D7F153FE"
+			]
+			id: "1DB611B0B1B8DE89"
+			tasks: [{
+				id: "6748D291D76F3853"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["201CF9C08BE94B8C"]
+			id: "61E0F268BFC283B8"
+			tasks: [{
+				id: "07829D34914AC99D"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1DB611B0B1B8DE89"
+				"1EA25F045E4A6815"
+			]
+			id: "201CF9C08BE94B8C"
+			tasks: [{
+				id: "46B7FFFF44197184"
+				item: { count: 1, id: "eidolon_repraised:soul_shard" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2065DD4130AF3376"
+				"70D8C075863F4144"
+			]
+			id: "08C801EBA9097233"
+			tasks: [{
+				id: "118A5CEC38DD0D01"
+				item: { count: 1, id: "ars_nouveau:magebloom_fiber" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1DB611B0B1B8DE89"]
+			id: "30D61EF9714AE543"
+			tasks: [{
+				id: "387C352ADA3675ED"
+				item: { count: 1, id: "immersiveengineering:seed" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["30D61EF9714AE543"]
+			id: "4374EEB1ABDC02A9"
+			tasks: [{
+				id: "0EFB5C4C5FC32290"
+				item: { count: 1, id: "ars_nouveau:magebloom_crop" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4374EEB1ABDC02A9"]
+			id: "2065DD4130AF3376"
+			tasks: [{
+				id: "527B912501E57FC4"
+				item: { count: 1, id: "ars_nouveau:magebloom" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["30D61EF9714AE543"]
+			id: "70D8C075863F4144"
+			tasks: [{
+				id: "0C8138D468ED8B4B"
+				item: { count: 1, id: "immersiveengineering:hemp_fiber" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			id: "1EA25F045E4A6815"
+			tasks: [{
+				id: "6504AEA9204F49AD"
+				item: { count: 1, id: "eidolon_repraised:brazier" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			id: "3CA8D486A06C5429"
+			tasks: [{
+				id: "401624FC14C13D20"
+				item: { count: 1, id: "eidolon_repraised:codex" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "4092D71B95836BB1"
+			tasks: [{
+				id: "5162826FA28ED46A"
+				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "1DC3436BBF355F1A"
+			tasks: [{
+				id: "4C0D129245C23A0F"
+				item: { count: 1, id: "modern_industrialization:guidebook" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "102E0253B17D8760"
+			tasks: [{
+				id: "39B2AA544A1D706B"
+				item: { count: 1, id: "theurgy:distiller" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "03F3AD024D7DB413"
+			tasks: [{
+				id: "3D9053F204CDD1A9"
+				item: { count: 1, id: "theurgy:digestion_vat" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["03F3AD024D7DB413"]
+			id: "1AE7EE9CDE8E81DB"
+			tasks: [{
+				id: "229C4475BEA76FF7"
+				item: { count: 1, id: "theurgy:purified_gold" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["102E0253B17D8760"]
+			id: "259822570422C04B"
+			tasks: [{
+				id: "115D8CDFDC0EEEBD"
+				item: { count: 1, id: "theurgy:mercury_shard" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			id: "717D65DA241013EF"
+			tasks: [{
+				id: "546889170012067D"
+				item: { count: 1, id: "minecraft:farmland" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "3D565564BD9C7F9B"
+			tasks: [{
+				id: "0174CA0A25D3F57F"
+				item: { count: 1, id: "mekanism:ingot_bronze" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "1704760688630279"
+			tasks: [{
+				id: "0A3590DAB190946A"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5532F1D405417E82"]
+			id: "34393829BCF5AFC6"
+			tasks: [{
+				id: "6FE5AA499AF323EE"
+				item: { count: 1, id: "naturesaura:sky_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["649EE2C92467E3C0"]
+			id: "5532F1D405417E82"
+			tasks: [{
+				id: "5E12B438EE0CBA35"
+				item: { count: 1, id: "naturesaura:offering_table" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"1569A0D1274872EF"
+				"5AABE34EA70913BF"
+			]
+			id: "649EE2C92467E3C0"
+			tasks: [{
+				id: "2056CDF146F9A3EB"
+				item: { count: 1, id: "aether:altar" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1DB611B0B1B8DE89"]
+			id: "1569A0D1274872EF"
+			tasks: [{
+				id: "6FAF29490956D72B"
+				item: { count: 1, id: "theurgy:reformation_result_pedestal" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -6.5d
+		}
+		{
+			id: "5AABE34EA70913BF"
+			tasks: [{
+				id: "6544192F14B52AE5"
+				item: { count: 1, id: "aether:aether_grass_block" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4DA149A9E6B4EC9B"]
+			id: "4400B47B5A1B0407"
+			tasks: [{
+				id: "344E22EC9B54C8D0"
+				item: { count: 1, id: "immersiveengineering:coal_coke" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7A3A2E8A297420C1"
+				"6AF3960499B53B38"
+				"63BA30B6CBE43872"
+			]
+			id: "362A7802D7F153FE"
+			tasks: [{
+				id: "5104CEF5ADAC8C53"
+				item: { count: 1, id: "spectrum:pedestal_basic_topaz" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			id: "7A3A2E8A297420C1"
+			tasks: [{
+				id: "74DDB61596C91655"
+				item: { count: 1, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			id: "63BA30B6CBE43872"
+			tasks: [{
+				id: "19B0CCCF34ADE274"
+				item: { count: 1, id: "spectrum:citrine_shard" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			id: "6AF3960499B53B38"
+			tasks: [{
+				id: "00206CD9900D6CA8"
+				item: { count: 1, id: "spectrum:topaz_shard" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			id: "021D96045C11DD05"
+			tasks: [{
+				id: "4426B61C978311DB"
+				item: { count: 1, id: "malum:arcane_charcoal" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+	]
+}

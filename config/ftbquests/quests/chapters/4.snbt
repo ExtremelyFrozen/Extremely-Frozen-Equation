@@ -1,0 +1,185 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4"
+	group: "3775659E5EBD7258"
+	id: "52EDBF56232B6792"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["367C4794EE21FDB6"]
+			id: "2979D2707FA3561E"
+			tasks: [{
+				id: "2AE0CFDCD477649D"
+				item: { count: 1, id: "spectrum:red_sapling" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10EE2B6D53724EC0"]
+			id: "7BCD2D69FABE9201"
+			tasks: [{
+				id: "3CDE4D00F84D67B8"
+				item: { count: 1, id: "spectrum:cyan_sapling" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5ED8C4664B445A54"]
+			id: "3ACD503965C9E4C7"
+			tasks: [{
+				id: "7EFE1341A1A2AC2D"
+				item: { count: 1, id: "spectrum:purple_sapling" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2979D2707FA3561E"]
+			id: "59D10ADC16DD507A"
+			tasks: [{
+				id: "1A023C9AA16AAAC1"
+				item: { count: 1, id: "spectrum:red_pigment" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7BCD2D69FABE9201"]
+			id: "324ED442EFB9736D"
+			tasks: [{
+				id: "38B2D0C7B9863256"
+				item: { count: 1, id: "spectrum:cyan_pigment" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3ACD503965C9E4C7"]
+			id: "65937D21CB65D87D"
+			tasks: [{
+				id: "7116A63DB9C9BE4F"
+				item: { count: 1, id: "spectrum:purple_pigment" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59D10ADC16DD507A"]
+			id: "6E6C6F811F1EA9C3"
+			tasks: [{
+				id: "5A917A7FF6ABB0EE"
+				item: { count: 1, id: "mekanism:enriched_redstone" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["324ED442EFB9736D"]
+			id: "228213D67B8162AB"
+			tasks: [{
+				id: "4E9A9C5FDFA9AED8"
+				item: { count: 1, id: "mekanism:enriched_diamond" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65937D21CB65D87D"]
+			id: "0D36ED01DC286B32"
+			tasks: [{
+				id: "254B56712CDC4E40"
+				item: { count: 1, id: "mekanism:enriched_refined_obsidian" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "367C4794EE21FDB6"
+			tasks: [{
+				id: "759F7AEF4D1274EF"
+				item: { count: 1, id: "actuallyadditions:empowered_restonia_crystal" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "10EE2B6D53724EC0"
+			tasks: [{
+				id: "452917BD2DF2EF87"
+				item: { count: 1, id: "justdirethings:celestigem" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "5ED8C4664B445A54"
+			tasks: [{
+				id: "430A2EBE593C87F4"
+				item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["02C7447CBE200860"]
+			id: "041128F2182C82A1"
+			tasks: [{
+				id: "0767265D069E05AA"
+				item: { count: 1, id: "mekanism:steel_casing" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			id: "4BB4F73A123683E2"
+			tasks: [{
+				id: "34F9DFDE3A317E6A"
+				item: { count: 1, id: "kenergyengineering:redstone_ai_advanced" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"00CBD1E75E9C54D5"
+				"4BB4F73A123683E2"
+			]
+			id: "02C7447CBE200860"
+			tasks: [{
+				id: "043AE136969C758A"
+				item: { count: 1, id: "enderio:void_chassis" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			id: "00CBD1E75E9C54D5"
+			tasks: [{
+				id: "1326716C6693A27C"
+				item: { count: 1, id: "enderio:grains_of_infinity" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+	]
+}

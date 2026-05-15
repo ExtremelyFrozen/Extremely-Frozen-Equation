@@ -1,0 +1,281 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1_4695FE600E4D92A3"
+	group: "222C7C25D375B2BF"
+	id: "4695FE600E4D92A3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0B8E84C4B1D54E75"
+			tasks: [{
+				id: "5EDD50AEF17C33B6"
+				item: { count: 1, id: "minecraft:oak_sapling" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			id: "7484D19972F5E64C"
+			tasks: [{
+				id: "26C6EDAB3E262B6A"
+				item: { count: 1, id: "minecraft:spruce_sapling" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			id: "5965324099D91CC6"
+			tasks: [{
+				id: "47BA26C02F5163F7"
+				item: { count: 1, id: "minecraft:birch_sapling" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			id: "3287D730D7B48446"
+			tasks: [{
+				id: "7C8B6D03209B2538"
+				item: { count: 1, id: "minecraft:jungle_sapling" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			id: "29ED074277B9892D"
+			tasks: [{
+				id: "42A7E72C99D7EED5"
+				item: { count: 1, id: "minecraft:acacia_sapling" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "5D86C7CD35BC27AD"
+			tasks: [{
+				id: "18FEFD659C3D1108"
+				item: { count: 1, id: "minecraft:dark_oak_sapling" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			id: "1BFBE1D0F5F198D4"
+			tasks: [{
+				id: "7DAE514E86D7E61E"
+				item: { count: 1, id: "minecraft:mangrove_propagule" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			id: "3DD3BA7523C7B7F4"
+			tasks: [{
+				id: "63396217340311F0"
+				item: { count: 1, id: "minecraft:cherry_sapling" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			id: "4AE9840287FC7221"
+			tasks: [{
+				id: "596D7BDC9C501415"
+				item: { count: 1, id: "minecraft:flowering_azalea" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			id: "1A738543D6C7BEFB"
+			tasks: [{
+				id: "3DD83F371727AF39"
+				item: { count: 1, id: "minecraft:crimson_fungus" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			id: "7A8D5CD9DA572265"
+			tasks: [{
+				id: "64AD27E8F97E3C96"
+				item: { count: 1, id: "minecraft:warped_fungus" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			id: "43F695F43A758263"
+			tasks: [{
+				id: "1019F2340BF9E932"
+				item: { count: 1, id: "evilcraft:undead_sapling" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			id: "20A2402692AEB265"
+			tasks: [{
+				id: "19CCB2E130785EA9"
+				item: { count: 1, id: "ars_nouveau:blue_archwood_sapling" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			id: "239A6F4C09DF8DDF"
+			tasks: [{
+				id: "3277C38D0CB6EF35"
+				item: { count: 1, id: "ars_nouveau:red_archwood_sapling" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "158419FFD7B1D987"
+			tasks: [{
+				id: "391FC60CCF506E03"
+				item: { count: 1, id: "ars_nouveau:purple_archwood_sapling" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "0FA94B49988F9D44"
+			tasks: [{
+				id: "6B100A12272C7895"
+				item: { count: 1, id: "ars_nouveau:green_archwood_sapling" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "07002548DDF8DB3B"
+			tasks: [{
+				id: "229E89EB729A437B"
+				item: { count: 1, id: "ars_elemental:yellow_archwood_sapling" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "04ED7369EC38A835"
+			tasks: [{
+				id: "14674E7F4F4DE675"
+				item: { count: 1, id: "eidolon_repraised:illwood_sapling" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "64AE0C2B37E1B495"
+			tasks: [{
+				id: "53642D848D15EC46"
+				item: { count: 1, id: "ifeu:rubber_sapling" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			id: "3F90C39CFE36C80B"
+			tasks: [{
+				id: "65A3B56B710ACD39"
+				item: { count: 1, id: "forbidden_arcanus:growing_edelwood" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "4E6282E766049E43"
+			tasks: [{
+				id: "35A1E51ACB607E5B"
+				item: { count: 1, id: "forbidden_arcanus:aurum_sapling" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "64C9A72017AC8763"
+			tasks: [{
+				id: "3EDE7C303720FF6A"
+				item: { count: 1, id: "malum:runewood_sapling" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			id: "1FE7AE023DECF6AA"
+			tasks: [{
+				id: "2FFA21AFC69BC1CC"
+				item: { count: 1, id: "malum:azure_runewood_sapling" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "089BF11AD27577BF"
+			tasks: [{
+				id: "01E00CC761F127A8"
+				item: { count: 1, id: "malum:soulwood_sapling" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			id: "0A0DB0305F43B364"
+			tasks: [{
+				id: "0E28BAAFA97D7862"
+				item: { count: 1, id: "occultism:otherworld_sapling" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "1D328E157CD3205F"
+			tasks: [{
+				id: "057DA5ED1A9F370D"
+				item: { count: 1, id: "naturesaura:ancient_sapling" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "55FA89C84E1D6C37"
+			tasks: [{
+				id: "0D3052B37E212060"
+				item: { count: 1, id: "integrateddynamics:menril_sapling" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+	]
+}
